@@ -33,6 +33,8 @@ public class CrudInstrumentedTest {
     public final ActivityTestRule<MainActivity> mActivityRule =
             new ActivityTestRule<>(MainActivity.class);
 
+    
+
     /**
      * Test for create CRUD operation
      * @throws Exception

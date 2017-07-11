@@ -84,7 +84,7 @@ public class CreateContactActivity extends Activity implements AdapterView.OnIte
         }
 
         if (province.equals("Please Select Province")) {
-            province = " ";
+            province = "";
         }
 
         //each entry needs a unique ID
