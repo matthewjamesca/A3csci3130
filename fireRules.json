@@ -14,10 +14,10 @@
                   ".validate": "newData.isString() && newData.val().length == 9 && newData.val().matches(/[0-9]*/)"
                 },
                 "businessType": {
-                  ".validate": "newData.isString() && newData.val().matches(/( |AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)/)"
+                  ".validate": "newData.isString() && newData.val().matches(/( |AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)$/)"
                 },
                 "province": {
-                  ".validate": "newData.isString() && newData.val().matches(/(Fisher|Distributor|Processor|Fish Monger)/)"
+                  ".validate": "newData.isString() && newData.val().matches(/(Fisher|Distributor|Processor|Fish Monger)$/)"
                 }
             }
         }
