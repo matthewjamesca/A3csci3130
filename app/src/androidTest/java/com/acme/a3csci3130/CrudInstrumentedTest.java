@@ -70,7 +70,7 @@ public class CrudInstrumentedTest {
      */
     @Test
     public void testRead() throws Exception {
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         onData(anything()).inAdapterView(withId(R.id.listView)).atPosition(0).perform(click());
     }
 
@@ -80,7 +80,7 @@ public class CrudInstrumentedTest {
      */
     @Test
     public void testUpdate() throws Exception {
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         onData(anything()).inAdapterView(withId(R.id.listView)).atPosition(0).perform(click());
 
         onView(withId(R.id.province))
