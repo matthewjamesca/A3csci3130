@@ -75,7 +75,7 @@ public class CrudInstrumentedTest {
     }
 
     /**
-     * Test for update CRUD operation
+     * Test for update CRUD operations
      * @throws Exception
      */
     @Test
